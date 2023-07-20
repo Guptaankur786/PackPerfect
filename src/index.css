@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  font-family: cursive;;
+  line-height: 1.5;
+  background-color: #242424;
+}
+
+button, input,select {
+  font-family: cursive;  
+  font-weight: 500;
+}
+
+button,select{
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+}
+
