@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    background-color: rgba(153, 90, 26, 0.466);
+    height: calc(100vh - 176px);
+}
+
+.list {
+    padding: 2% 2% 0 2%;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    row-gap: 5%;
+    column-gap: 8%;
+    justify-content: center;
+    height: 80%;
+    overflow:scroll;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+  }
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.filter button {
+    text-align: center;
+    padding: 5px 12px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(239, 208, 167);
+}
+

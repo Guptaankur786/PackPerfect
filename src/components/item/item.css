@@ -1,0 +1,18 @@
+.item-container .item {
+    display: flex;
+    gap: 5px;
+}
+
+input[type="checkbox"]:checked + span{
+    text-decoration: line-through;
+}
+
+.item span {
+    font-size: 15px;
+    color: rgb(249, 209, 156);
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+}
